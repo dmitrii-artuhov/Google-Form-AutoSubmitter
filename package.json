@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "prompt": "^1.1.0",
     "puppeteer": "^10.0.0",
     "puppeteer-cluster": "^0.22.0"
   }
