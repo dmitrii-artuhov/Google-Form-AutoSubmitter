@@ -70,18 +70,6 @@ const processForm = async (page, url) => {
 		waitUntil: 'networkidle2'
 	});
 
-	// To answer questions, first identify selectors of all similar questions type
-	// then use the selector index to select the question
-	// then perform an action to answer the question,
-	// e.g. click or type an answer
-
-
-	// Short Answer questions
-	// const selectors = await page.$$('.quantumWizTextinputPaperinputInput');
-	// await selectors[0].click();
-	// await page.keyboard.type('Random stuff here');
-
-	// Other fields here...
 	// MCQ and Checkbox Questions
 	const selectors = await page.$$('.docssharedWizToggleLabeledLabelWrapper');
 	
