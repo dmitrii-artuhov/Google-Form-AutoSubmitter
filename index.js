@@ -6,7 +6,7 @@ const prompt = require('prompt');
 
 
 // global constants
-const maxPoolSize = 30; // <= 30 is optimal. Should make less for weaker PCs
+const maxPoolSize = 20; // <= 30 is optimal. Should make less for weaker PCs
 let totalFormSubmissions = 100;
 // testing purposes
 let formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSc3B8GU0_AHczDT0BuVzGcOAEEO0JYBJQKXLtJoutgf_mGGTQ/viewform'; 
